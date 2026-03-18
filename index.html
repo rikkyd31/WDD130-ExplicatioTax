@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="Stylesheets" href="/docs/styles/styles.css">
     <!---This is the home page for Explicatio Tax for the Client Fuller -->
 </head>
 <body>
@@ -14,24 +15,26 @@
         <h6>For Client Fuller</h6>
     </header>
     <!--Nav-->
-    <container id="logo">
+    <container class="navigation">
         <img id="logo1" src="/docs/images/logo1.png" alt="logo image">
+
+        <nav>
+            <!---Using buttons to make whole thing clickable and to make it easier to seperate each link-->
+            <!--Using /../ let's me move back a directory allowing me to access the correct file-->
+            <button class ="navigation">
+                <a href="/../../index.html">HomePage</a> 
+            </button>
+            <button class ="navigation">
+                <a href="/docs/sub_pages_directory/terminology.html">Terminology</a>
+            </button>   
+            <button class ="navigation">        
+                <a href="/docs/sub_pages_directory/equation.html">Tax Equation</a>
+            </button>
+            <button class ="navigation">
+                <a href="/docs/sub_pages_directory/contact.html">Contact Us</a>          
+            </button>
+        </nav>
     </container>
-    <nav>
-        <!---Using buttons to make whole thing clickable and to make it easier to seperate each link-->
-        <button class ="navigation">
-            <a href="index.html">HomePage</a> 
-        </button>
-        <button class ="navigation">
-            <a href="/docs/sub_pages_directory/terminology.html">Terminology</a>
-        </button>   
-        <button class ="navigation">        
-            <a href="/docs/sub_pages_directory/equation.html">Tax Equation</a>
-        </button>
-        <button class ="navigation">
-            <a href="/docs/sub_pages_directory/contact.html">Contact Us</a>          
-        </button>
-    </nav>
 <!--Using div to divide the page in 2-->
     <div id ="section1">
         <img id="img1" src="/docs/images/home1.jpg" alt="Tired Worker" >
