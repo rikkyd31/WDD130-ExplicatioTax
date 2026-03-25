@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
-    <link rel="Stylesheets" href="/docs/styles/styles.css">
+    <link rel="stylesheet" href="/docs/styles/styles.css">    
 </head>
 <body>
     <header>
@@ -19,25 +19,27 @@
 
         <nav>
             <!---Using buttons to make whole thing clickable and to make it easier to seperate each link-->
-           <!--Using /../ let's me move back a directory allowing me to access the correct file-->
-            <button class ="navigation">
+            <!--Using /../ let's me move back a directory allowing me to access the correct file-->
+            <button class ="nav-button" id="homepage">
                 <a href="/../../index.html">HomePage</a> 
             </button>
-            <button class ="navigation">
+            <button class ="nav-button" id="terminology">
                 <a href="/docs/sub_pages_directory/terminology.html">Terminology</a>
             </button>   
-            <button class ="navigation">        
+            <button class ="nav-button" id="equation">        
                 <a href="/docs/sub_pages_directory/equation.html">Tax Equation</a>
             </button>
-            <button class ="navigation">
+            <button class ="nav-button" id="contact">
                 <a href="/docs/sub_pages_directory/contact.html">Contact Us</a>          
             </button>
         </nav>
     </container>
     <!--form with a background image behind it-->
     <div id = "background">
-        <h2>Contact Us</h2>
-        <!--Standard form with submit button that doesn't actually do anything since there's javascript for it-->
+        
+            <h2>Contact Us</h2>
+
+            <!--Standard form with submit button that doesn't actually do anything since there's javascript for it-->
         <form id ="feedback">
             <h5 class="information">Name:</h5>
             <textarea class="input"> </textarea>
@@ -58,5 +60,5 @@
     </section>
 
     <footer>
-        <p>Copyright 2026</p>
+        <h5>Copyright 2026</h5>
     </footer>
