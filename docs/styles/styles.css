@@ -41,8 +41,8 @@ nav {
     border-style: solid;
     background-color: #467599;
     color: white;
-    width: 80%;
-    height: 75%;
+    width: 85%;
+    height: 80%;
     padding: auto;
     grid-row: 1;
 
@@ -55,8 +55,8 @@ nav {
 }
 
 #logo1 {
-    height: 70%;
-    width: 70%;
+    height: 74%;
+    width: 80%;
     grid-column: 1;
     grid-row: 1;
     border-color: black;
@@ -157,7 +157,8 @@ footer {
 /** had to look up how to properly set up background images https://www.w3schools.com/css/css3_backgrounds.asp**/
 /** https://www.w3schools.com/css/css_units_relative.asp**/
 #background {
-    min-height: 50vh;
+    height: 60vh;
+    width: 90vw;
     background-image:url(/docs/images/contact1.png) ;
     background-size: cover;
     align-content: center;
@@ -179,7 +180,7 @@ footer {
     border-color: black ;
     border-style: solid;
     border-width: 2%;
-    width: 70vh;
+    width: 50vw;
 }
 
 .information {
