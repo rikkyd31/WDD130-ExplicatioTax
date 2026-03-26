@@ -158,7 +158,7 @@ footer {
 /** https://www.w3schools.com/css/css_units_relative.asp**/
 #background {
     min-height: 50vh;
-    background-image:url(/docs/images/contact1.png) ;
+    background-image:url(../images/contact1.png) ;
     background-size: cover;
     align-content: center;
     justify-items: center;
